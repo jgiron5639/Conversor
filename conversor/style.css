@@ -1,0 +1,17 @@
+body{
+    background-color: #ECFAF9;
+}
+
+.container{
+    position: relative;
+    background-color: white;
+    top: auto;
+    margin-top: 50px;
+    padding: 20px;
+    /*border: black 1px solid;*/
+}
+
+h1{
+    text-align: center;
+    margin: 5px;
+}
