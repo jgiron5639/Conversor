@@ -1,0 +1,78 @@
+body{
+    background-color: #ECFAF9;
+}
+section{
+    background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 50%; /* Puedes ajustar el valor según lo que necesites */
+      height: 300px;
+      margin: 0 auto; /* Para centrar la sección horizontalmente */
+}
+section h1{
+    color: #333;
+      font-size: 24px;
+      text-align: center;
+}
+section p{
+    color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+}
+.convertir{
+    width: 200px; /* Ancho del select */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto dentro del select */
+}
+.div-centrar{
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+.div-centrar2{
+    position: relative;
+    text-align: center; /* Centrar horizontalmente */
+    font-size: 0; /* Eliminar espacios entre elementos en línea */
+}
+.select-centrado {
+    width: 150px; /* Ancho del select */
+    margin: 10px; /* Margen entre los select */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+  }
+.valor{
+    width: 50%; /* Ancho del input */
+    padding: 8px; /* Espaciado interno */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 20px;
+    display: block; /* Convertir a bloque para que el margen automático funcione */
+    box-sizing: border-box; /* Incluir padding en el ancho */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    
+}
+.mi-boton{
+    position: absolute;
+      top: 100%; /* Ubicación vertical al 50% del contenedor */
+      left: 50%; /* Ubicación horizontal al 50% del contenedor */
+      transform: translate(-50%, -50%); /* Centrar el botón */
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #f0f0f0;
+      color: #333;
+      font-size: 16px;
+}
+p {
+    font-size: 18px;
+    position: relative;
+    top: 50px; /* Mover la etiqueta hacia abajo */
+    left: 5px; /* Mover la etiqueta hacia la derecha */
+  }
